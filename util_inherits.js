@@ -12,7 +12,7 @@ Base.prototype.showName = function(){
 };
 
 function Sub(){
- this.name = 'haha';
+ this.name = 'lala';
 }
 
 util.inherits(Sub,Base);
