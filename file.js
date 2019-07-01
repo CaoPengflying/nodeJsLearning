@@ -8,3 +8,6 @@ fs.open('input.txt','r+',function(err,fd){
   }
   console.log("文件打开成功"+fd.toString());
 });
+
+var data = fs.readFileSync('input.txt');
+console.log(data.toString());
